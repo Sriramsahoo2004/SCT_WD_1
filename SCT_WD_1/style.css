@@ -38,7 +38,7 @@ nav a.active {
     color: rgb(104, 161, 241);
 }
 
-section {
+#home {
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -46,22 +46,60 @@ section {
     font-size: 100px;
 }
 
+#about{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#services{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#contact{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    
+}
 section:nth-child(2) {
     background-color: rgb(66, 66, 237);
 }
 
 section:nth-child(3) {
-    background-color: rgb(0, 255, 38);
+    background-color: #EEE6D9;
 }
 
 section:nth-child(4) {
-    background-color: rgb(245, 174, 19);
+    background-color: #5608f1;
 }
 
 section:nth-child(5) {
-    background-color: rgb(235, 74, 15);
+    background-color:#EEE6D9 ;
 }
 
 img {
     color: white;
+}
+
+#about video {
+    width: 70vw;
+    height: 95vh;
+}
+
+#services video {
+    width: 70vw;
+    height: 95vh;
+}
+#contact video {
+    width: 70vw;
+    height: 95vh;
 }
